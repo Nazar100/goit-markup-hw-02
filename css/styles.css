@@ -20,6 +20,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .caption {
   color: var(--captions);
 }
