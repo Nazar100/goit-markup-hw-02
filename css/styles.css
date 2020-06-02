@@ -1,0 +1,67 @@
+/* фон - #FFFFFF */
+/* аль фот - #F5F4FA */
+/* фон футеру -#2F303A */
+/* Колір заголовків - #212121 */
+/* Колір тексту - #757575 */
+/* Додатковий колір - #2196F3 */
+
+:root {
+  --background: #ffffff;
+  --alt-background: #f5f4fa;
+  --foot-background: #2f303a;
+  --captions: #212121;
+  --text: #757575;
+  --add-text: #2196f3;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+ul {
+  list-style: none;
+}
+.caption {
+  color: var(--captions);
+}
+.web {
+  color: var(--add-text);
+}
+.contacts {
+  color: var(--text);
+}
+.contacts:hover {
+  color: var(--add-text);
+}
+.nav:hover {
+  color: var(--add-text);
+}
+h1 {
+  color: var(--background);
+}
+.button {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+.current {
+  color: var(--add-text);
+}
+.link {
+  background-color: var(--alt-background);
+  color: var(--captions);
+}
+.link:hover {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+.address {
+  color: var(--background);
+}
+footer {
+  background-color: var(--foot-background);
+}
+.our-team {
+  background-color: var(--alt-background);
+}
+.studio {
+  color: var(--background);
+}
