@@ -16,35 +16,186 @@
 body {
   background-color: var(--background);
   color: var(--text);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
-ul {
-  list-style: none;
-}
-a {
+.link {
   text-decoration: none;
 }
-.caption {
+.list {
+  list-style: none;
+}
+h1 {
+  color: var(--background);
+  background-color: black;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* фон, щоб було видно слова */
+
+/* logo */
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.studio {
   color: var(--captions);
 }
 .web {
   color: var(--add-text);
 }
+
+/* nav */
+.nav-link {
+  color: var(--captions);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.nav-link:hover {
+  color: var(--add-text);
+}
+.nav-link:focus {
+  color: var(--add-text);
+}
+.current {
+  color: var(--add-text);
+}
 .contacts {
   color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .contacts:hover {
   color: var(--add-text);
 }
-.nav:hover {
+.contacts:focus {
   color: var(--add-text);
 }
-h1 {
-  color: var(--background);
-}
+/* main */
 .button {
   background-color: var(--add-text);
   color: var(--background);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
+.sub-caption {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.caption,
+.sub-caption,
+.caption-name,
+.porfolio-caption {
+  color: var(--captions);
+}
+.new-caption {
+  color: var(--background);
+  background-color: grey;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.caption-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.porfolio-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+/* фон, щоб було видно слова */
+
+/* portfolio */
+
+.portfolio-button {
+  color: var(--captions);
+  background-color: var(--alt-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio-button:hover {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+.portfolio-button:focus {
+  background-color: var(--add-text);
+  color: var(--background);
+}
+.text {
+  color: var(--text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.89;
+}
+
+/*  */
+footer {
+  background-color: var(--foot-background);
+}
+.studio-footer,
+.join-us {
+  color: var(--background);
+}
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.address {
+  color: var(--background);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.add-info {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+
+/* ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.nav:hover {
+  color: var(--add-text);
+}
+
+
 .current {
   color: var(--add-text);
 }
@@ -56,15 +207,13 @@ h1 {
   background-color: var(--add-text);
   color: var(--background);
 }
-.address {
+.link:focus {
+  background-color: var(--add-text);
   color: var(--background);
 }
-footer {
-  background-color: var(--foot-background);
-}
+
+
+
 .our-team {
   background-color: var(--alt-background);
-}
-.studio {
-  color: var(--background);
-}
+} */
