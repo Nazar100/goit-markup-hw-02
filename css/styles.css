@@ -28,7 +28,7 @@ body {
 .list {
   list-style: none;
 }
-h1 {
+.main-caption {
   color: var(--background);
   background-color: black;
   font-weight: 900;
@@ -115,19 +115,33 @@ h1 {
   font-size: 14px;
   line-height: 1.14;
 }
+/* фон, щоб було видно слова */
 .caption-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
+.networks:hover {
+  background-color: var(--add-text);
+}
+.networks:focus {
+  background-color: var(--add-text);
+}
+.clients:hover {
+  color: var(--add-text);
+}
+.clients:focus {
+  color: var(--add-text);
+}
+/* фон, щоб було видно слова */
+
+/* portfolio */
+
 .porfolio-caption {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-/* фон, щоб було видно слова */
-
-/* portfolio */
 
 .portfolio-button {
   color: var(--captions);
