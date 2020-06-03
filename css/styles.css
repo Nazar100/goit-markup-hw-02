@@ -181,6 +181,14 @@ footer {
   font-size: 22px;
   line-height: 1.18;
 }
+.text-footer {
+  color: var(--background);
+  background-color: var(--add-text);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+/* фон, щоб було видно слова */
 .studio-footer,
 .join-us {
   color: var(--background);
