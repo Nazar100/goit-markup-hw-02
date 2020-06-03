@@ -133,7 +133,12 @@ body {
 .clients:focus {
   color: var(--add-text);
 }
-/* фон, щоб було видно слова */
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
 
 /* portfolio */
 
@@ -168,6 +173,13 @@ body {
 /*  */
 footer {
   background-color: var(--foot-background);
+}
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
 }
 .studio-footer,
 .join-us {
